@@ -2,28 +2,28 @@ Proyecto Final
 
 Lenguaje C++
 
-Elabora un programa en lenguaje C++ que muestre el siguiente menú:
+Elabora un programa en lenguaje C++ que muestre el siguiente menu:
 a. Registro de Vuelos
 b. Listado de Destinos
 c. Listado de Vuelos
 d. Salir
 
-***Opción a***. Elabora una pantalla en la cual el usuario pueda comprar un boleto para viajar a algún
-destino de la República Mexicana. 
-El programa deberá detectar si los archivos no tienen información. 
+***Opción a***. Elabora una pantalla en la cual el usuario pueda comprar un boleto para viajar a algun
+destino de la Republica Mexicana. 
+El programa debera detectar si los archivos no tienen informacion. 
 En este caso antes de que inicie el registro de los vuelos se lo informará al usuario para
 primero dar de alta registros para los Destinos.
-La opción para registro de destinos impleméntala donde consideres apropiado.
+La opcion para registro de destinos implementala donde consideres apropiado.
 
-Los datos que se pedirán para el registro de los destinos son:
+Los datos que se pediran para el registro de los destinos son:
 
--Clave del destino. Validar que la clave inicie con una letra mayúscula, posteriormente un “_”
-seguido de 4 dígitos.
+-Clave del destino. Validar que la clave inicie con una letra mayuscula, posteriormente un “_”
+seguido de 4 digitos.
 
--Descripción. Iniciará con una letra mayúscula y después podrá contener cualquier cantidad
+-Descripcion. Iniciara con una letra mayúscula y después podrá contener cualquier cantidad
 de letras mayúsculas, minúsculas y espacio.
 
--Precio. Contendrá de 3 a 5 dígitos, posteriormente un “.” Y terminará con dos dígitos.
+-Precio. Contendrá de 3 a 5 digitos, posteriormente un “.” Y terminará con dos digitos.
 
 Las tres validaciones de los destinos se realizarán mediante expresiones regulares.
 
@@ -56,6 +56,7 @@ registrados para esa fecha. En caso de que existan varios vuelos al mismo destin
 mostrará uno (no mostrar información repetida).
 
 El reporte será en forma tabular con las mismas indicaciones del b)
+
 En esta opción también se mostrará un listado con todos los vuelos registrados y con toda la
 información de cada uno de ellos. (no mostrar información repetida).
 
