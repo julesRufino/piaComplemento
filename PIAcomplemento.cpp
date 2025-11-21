@@ -1,3 +1,11 @@
+/*
+Integrantes: 
+
+Julio Antonio Blanco Rufino 2003632
+Adrian Martinez Alvarado 2132997
+William Rincon Perez 1823198
+*/
+
 #include<iostream>
 #include<string>
 #include<cstdlib>
