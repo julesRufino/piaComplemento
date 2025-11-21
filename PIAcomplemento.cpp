@@ -37,7 +37,7 @@ bool ExistenDestinos();
 bool DestinoExiste(FILE*, const string&);
 string ObtenerPrecioDestino(FILE*, const string&);
 
- main()
+main()
 {
     bool ejecucionExitosa = true;
     
