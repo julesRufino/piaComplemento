@@ -39,7 +39,6 @@ string ObtenerPrecioDestino(FILE*, const string&);
 
  main()
 {
-    int resultadoEjecucion = 0;
     bool ejecucionExitosa = true;
     
     try {
@@ -208,15 +207,9 @@ string ObtenerPrecioDestino(FILE*, const string&);
         cerr << "Error global del programa: " << e.what() << endl;
         PresionaParaContinuar();
         ejecucionExitosa = false;
-        resultadoEjecucion = 1;
     }
     
-    if (ejecucionExitosa) 
-    {
-        resultadoEjecucion = 0;
-    }
-    
-    return resultadoEjecucion;
+    return ejecucionExitosa;
 }
 
 void LimpiarPantalla()
